@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime Quote</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <h1>Anime Quote</h1>
+    <h1 class="quote"></h1>
+    <span class="character"></span>
+    <span class="anime"></span>
+    <button class="quoteBtn" onclick="getAnimeQuote()">Get Quote</button>
   </body>
 </html>

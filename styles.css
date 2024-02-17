@@ -4,7 +4,58 @@
   box-sizing: border-box;
 }
 
-html,
+html {
+  min-height: 100%;
+}
+
 body {
+  background-color: #091738;
   height: 100%;
+  font-family: "Caveat", cursive;
+  padding: 20px 0;
+}
+
+h1 {
+  color: #a4006b;
+  display: block;
+  font-weight: 400;
+  font-size: 4rem;
+  padding: 0 10px;
+}
+
+span {
+  color: #4a6ef0;
+  font-weight: 400;
+  font-size: 3rem;
+  display: block;
+  margin-right: 0;
+  text-align: end;
+  padding-right: 200px;
+}
+
+button {
+  border: none;
+  margin-left: 10px;
+  background-color: #564aff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+  font-family: "Caveat", cursive;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #3629f8;
+}
+
+.catQuoteBtn {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  span {
+    padding-right: 50px;
+  }
 }
